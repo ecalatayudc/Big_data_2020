@@ -21,8 +21,9 @@ If you want to run the application locally please proceed with the following ste
 
 The following components are necessary for the execution of the application:
 * [Git Bash](https://gitforwindows.org/) (Optionally)
-* [Docker client](https://docs.docker.com/docker-for-windows/install/)
+* [Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
 
+_Note: in a similar way it would be in OS and Linux_
 
 ### Installation
 
@@ -32,7 +33,7 @@ The following components are necessary for the execution of the application:
    ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: you can download as .zip_ 
 
-2. Move to the Big_data_2020/ repository 
+2. Move to the Big_data_2020/ directory
    ```sh
    cd Big_data_2020/
    ```
