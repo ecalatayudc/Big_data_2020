@@ -52,6 +52,10 @@ _Note: in a similar way it would be in OS and Linux environments_
 5. Finally visit the following URL to access web application: 
    <br> http://localhost:5000/flights/delays/predict_kafka </br>
    
+   <img src="images/screen1.png">
+   <img src="images/screen2.png">
+   
+   
 ## Contributors
 
 Thanks to:
