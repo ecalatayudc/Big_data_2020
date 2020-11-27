@@ -28,21 +28,25 @@ _Note: in a similar way it would be in OS and Linux_
 ### Installation
 
 1. Clone the repo
-   ```sh
+
+   ```
    git clone https://github.com/ecalatayudc/Big_data_2020.git
    ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: you can download as .zip_ 
 
 2. Move to the Big_data_2020/ directory
+
    ```sh
    cd Big_data_2020/
    ```
 3. Build docker-compose 
-   ```JS
+
+   ```sh
    docker-compose build
    ```
 4. Run docker-compose up and Compose starts and runs your entire app.
-   ```JS
+
+   ```sh
    docker-compose up
    ```
 5. Finally visit the following URL to access web application: 
