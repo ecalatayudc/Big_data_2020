@@ -52,9 +52,12 @@ _Note: in a similar way it would be in OS and Linux environments_
 5. Finally visit the following URL to access web application: 
    <br> http://localhost:5000/flights/delays/predict_kafka </br>
    
-   Output:
+   **Output:**
+   
    <img src="images/screen1.png">
-   Output after click on submit:
+   
+   **Output after click on submit:**
+   
    <img src="images/screen2.png">
    
    
