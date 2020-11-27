@@ -2,7 +2,7 @@ FROM bitnami/spark:2.4.4
 
 USER root
 
-RUN apt update && apt install -y gcc && apt-get install -y git && apt-get install -y gnupg
+RUN apt-get update && apt-get install -y gcc && apt-get install -y git && apt-get install -y gnupg
 
 RUN echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list && \
     apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823 && \
