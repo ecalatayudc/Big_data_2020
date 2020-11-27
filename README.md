@@ -23,7 +23,7 @@ The following components are necessary for the execution of the application:
 * [Git Bash](https://gitforwindows.org/) (Optionally)
 * [Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
 
-_Note: in a similar way it would be in OS and Linux_
+_Note: in a similar way it would be in OS and Linux environments_
 
 ### Installation
 
@@ -32,7 +32,7 @@ _Note: in a similar way it would be in OS and Linux_
    ```
    git clone https://github.com/ecalatayudc/Big_data_2020.git
    ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: you can download as .zip_ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: you can download the repository as .zip_ 
 
 2. Move to the Big_data_2020/ directory
 
