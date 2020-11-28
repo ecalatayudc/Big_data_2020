@@ -2,6 +2,9 @@ steps:
   # running docker-compose
   - name: 'docker/compose:1.26.2'
     args: ['up', '-d']
+    timeout: 1200s
+
+
 
 
   
