@@ -32,14 +32,16 @@ services:
     build: ./mongo_seed
     links:
       - mongodb
+    depends_on:
+      - spark
     volumes:
-      - volume_spark:/practica_big_data_2019
+      - volume_spark:/practica_big_data_2019:ro
 
   spark:
     build: ./spark
     user: root
     volumes: 
-      - volume_spark:/opt/bitnami/spark/work/practica_big_data_2019
+      - volume_spark:/opt/bitnami/spark/work/practica_big_data_2019:ro
     links:
       - kafka
       - mongodb
@@ -47,10 +49,12 @@ services:
   predict_flask:
     build: ./predict_flask
     volumes:
-      - volume_spark:/practica_big_data_2019
+      - volume_spark:/practica_big_data_2019:ro
     links:
       - kafka
       - mongodb
+    depends_on:
+      - spark
     ports:
       - "5000:5000"
 
