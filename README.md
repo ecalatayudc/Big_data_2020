@@ -93,7 +93,7 @@ _Note1: Keep in mind this was not configured as a static IP public._
       sudo apt-cache policy docker-ce
       sudo apt install docker-ce
       sudo systemctl status docker
-      sudo usermod -aG docker username
+      sudo usermod -aG docker <your_username>
       ```
       Now restart your SSH or open a new terminal to see the changes.
       
