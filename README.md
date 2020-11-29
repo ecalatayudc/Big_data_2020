@@ -10,7 +10,7 @@
 
 <img src="images/screen7.png" width="500">
 
-This project integrates several docker services linked through docker-compose. 
+This project integrates several docker services linked through docker-compose for later deployment in Google Cloud.
 
 Zookeeper and kafka are used to create the topic flight_delay_classification_request. Afterwards, the distance records are imported into MongoDB. Then, the flight predictor is executed using spark-submit. Finally the web application is started with flask.
 
