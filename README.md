@@ -8,6 +8,8 @@
 
 ## About The Project
 
+<img src="images/screen7.png" width="500">
+
 This project integrates several docker services linked through docker-compose. 
 
 Zookeeper and kafka are used to create the topic flight_delay_classification_request. Afterwards, the distance records are imported into MongoDB. Then, the flight predictor is executed using spark-submit. Finally the web application is started with flask.
@@ -65,7 +67,7 @@ _Note: in a similar way it would be in OS and Linux environments_
 > You can access through the next link http://35.187.47.153:5000/flights/delays/predict_kafka 
 
 _Note1: Keep in mind this was not configured as a static IP public._
-_Note2: It may not work in the future because the application is not running on the server side._
+<br> _Note2: It may not work in the future because the application is not running on the server side._ </br>
 
 ### First step: Set up a new VM instance.
 
