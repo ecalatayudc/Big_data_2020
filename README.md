@@ -122,8 +122,7 @@ _Note2: It may not work in the future because the application is not running on 
       docker-compose up --build
       # If you want to stop the scenario execute 'docker-compose stop'.
       ```
-   
-      <img src="images/screen5.png">
+      <img src="images/screen5.png" width="700">
       
 ### Last steps: Change Firewall configurations to allow access to Web Application through tcp port 5000 & Enjoy!
 
