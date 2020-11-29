@@ -100,10 +100,10 @@ _Note1: Keep in mind this was not configured as a static IP public._
       Some usefull docker commands (Optional):
       
       ```sh
-      docker --version   #To view the version installed.
+      docker --version  #To view the version installed.
       docker info       #To view the system information about Docker.
-      docker ps         #To view all active containers, use the following command.
-      docker ps -a      #To view all containers which are active and inactive, use the below command.
+      docker ps         #To view all active containers.
+      docker ps -a      #To view all containers which are active and inactive.
       ```
    - [Install Docker Compose on Ubuntu 18.04:](https://www.cloudbooklet.com/running-docker-compose-with-docker-on-ubuntu-18-04-google-cloud/)
    
