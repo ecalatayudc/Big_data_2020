@@ -122,7 +122,10 @@ _Note2: It may not work in the future because the application is not running on 
       docker-compose up --build
       # If you want to stop the scenario execute 'docker-compose stop'.
       ```
-### Last step: Change Firewall configurations to allow access to Web Application through tcp port 5000.
+   
+      <img src="images/screen5.png">
+      
+### Last steps: Change Firewall configurations to allow access to Web Application through tcp port 5000.
 
 Create the IPv4 policy: 
 
@@ -130,7 +133,15 @@ Allow Ingress traffic -> reach as destination 0.0.0.0:5000 through tcp and selec
 
 <img src="images/screen3.png">
 
+Go to the Dashboard and copy to clipboard the External IP, in our example is 35.187.47.153 as you can see in the next picture.
+
+<img src="images/screen4.png">
+
 **Access to** [http://[EXTERNAL_IP]:5000/flights/delays/predict_kafka](http://[EXTERNAL_IP]:5000/flights/delays/predict_kafka)
+
+**Output:**
+
+<img src="images/screen6.png">
 
 ## Contributors
 
