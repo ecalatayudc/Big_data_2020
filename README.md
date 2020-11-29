@@ -95,7 +95,7 @@ _Note2: It may not work in the future because the application is not running on 
       ```
       Now restart your SSH or open a new terminal to see the changes.
       
-      Some usefull docker commands
+      Some usefull docker commands (Optional):
       
       ```sh
       docker --version   #To view the version installed.
@@ -109,7 +109,7 @@ _Note2: It may not work in the future because the application is not running on 
       sudo curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
       sudo chmod +x /usr/local/bin/docker-compose
       ```
-      Some usefull docker-compose commands
+      Some usefull docker-compose commands (Optional):
       
         ```sh
       docker-compose --version   #To view the version installed.
